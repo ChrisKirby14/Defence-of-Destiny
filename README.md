@@ -1,5 +1,5 @@
 # Defence-of-Destiny
-A game made following GameDevs 3d Unity course
+A game made following GameDev.tv 3d Unity course
 
 Defend Destiny against a rouge commander trying to take over!
 
