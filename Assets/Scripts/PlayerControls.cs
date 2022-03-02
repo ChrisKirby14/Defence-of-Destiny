@@ -28,14 +28,14 @@ public class PlayerControls : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float horizontalThrow = movement.ReadValue<Vector2>().x;
-        float verticalThrust = movement.ReadValue<Vector2>().y;
+        float xThrow = movement.ReadValue<Vector2>().x;
+        float yThrust = movement.ReadValue<Vector2>().y;
 
 
     //    float horizontalThrow = Input.GetAxis("Horizontal");
-        Debug.Log (horizontalThrow);
+        Debug.Log (xThrow);
 
     //    float verticalThrust = Input.GetAxis("Vertical");
-        Debug.Log (verticalThrust);
+        Debug.Log (yThrust);
     }
 }
