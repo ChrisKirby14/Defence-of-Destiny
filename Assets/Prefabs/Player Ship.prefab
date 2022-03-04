@@ -858,6 +858,13 @@ MonoBehaviour:
       m_Action: Fire
       m_Flags: 0
     m_Flags: 0
+  moveSpeed: 30
+  xRange: 11
+  yRange: 9
+  positionPitchFactor: -2
+  controlPitchFactor: -10
+  positionYewFactor: 2
+  controlRollFactor: -20
 --- !u!1 &5351782226987542192
 GameObject:
   m_ObjectHideFlags: 0
