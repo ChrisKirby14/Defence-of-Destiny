@@ -35,6 +35,7 @@ public class PlayerControls : MonoBehaviour
     {
         PlayerMovement();
         PlayerRotation();
+        ProcessFiring();
     }
 
     void PlayerRotation()
@@ -65,4 +66,18 @@ public class PlayerControls : MonoBehaviour
 
         transform.localPosition = new Vector3(clampedXPos, clampYPos, transform.localPosition.z);
     }
+
+    void ProcessFiring()
+    {
+       if(fire.ReadValue<float>() > 0.5)
+       {
+           Debug.Log("I'm Shooting");
+       }
+
+       else
+       {
+           Debug.Log("I'm not shooting");
+       }
+    }
+
 }
