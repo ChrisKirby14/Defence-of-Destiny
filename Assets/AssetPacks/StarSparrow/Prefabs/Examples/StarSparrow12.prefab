@@ -11,10 +11,8 @@ GameObject:
   - component: {fileID: 4775774438825354}
   - component: {fileID: 33739784584191582}
   - component: {fileID: 23718787820125050}
-  - component: {fileID: 3804313751465731604}
   - component: {fileID: 3228257680646995952}
   - component: {fileID: 1082691525}
-  - component: {fileID: 1836697003}
   m_Layer: 0
   m_Name: StarSparrow12
   m_TagString: Untagged
@@ -85,19 +83,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &3804313751465731604
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1626707168461546}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9def891c56e9fb64f9e7eb24b645281f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destroyTime: 0.5
 --- !u!65 &3228257680646995952
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -123,17 +108,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9def891c56e9fb64f9e7eb24b645281f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathVFX: {fileID: 3479105494934863959, guid: 2755927bcdb7fa94e88b30c310a150ad,
+    type: 3}
+  hitVFX: {fileID: 0}
   destroyTime: 0.5
---- !u!114 &1836697003
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1626707168461546}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9def891c56e9fb64f9e7eb24b645281f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destroyTime: 0.5
+  scorePerHit: 25
+  hitPoints: 25
